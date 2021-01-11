@@ -1,0 +1,18 @@
+﻿<Window x:Class="BOA.UI.Banking.CustomerMailWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BOA.UI.Banking.CustomerMailWindow"
+        mc:Ignorable="d"
+        Title="Mail Adres Ekleme" Height="247.385" Width="314.923" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="52,38,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.55,-1.654"/>
+        <Label Content="Mail Adresi" HorizontalAlignment="Left" Margin="52,80,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMailId" IsEnabled="false" HorizontalAlignment="Left" Height="24" Margin="145,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtMailAddress" HorizontalAlignment="Left" Height="22" Margin="145,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Kaydet" Name="btnSaveMail" HorizontalAlignment="Left" Margin="215,138,0,0" VerticalAlignment="Top" Width="50" Click="btnSaveMail_Click"/>
+        <Button Content="Vazgeç" Name="btnCancel" HorizontalAlignment="Left" Margin="145,138,0,0" VerticalAlignment="Top" Width="50" Click="btnCancel_Click" />
+
+    </Grid>
+</Window>

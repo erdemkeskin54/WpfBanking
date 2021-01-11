@@ -1,0 +1,39 @@
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.dll
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.dll
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.dll
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csprojAssemblyReference.cache
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CoreCompileInputs.cache
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CopyComplete
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.dll
+C:\Users\mc000221\source\repos\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CopyComplete
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Connector.Banking\obj\Debug\BOA.Connector.Banking.pdb

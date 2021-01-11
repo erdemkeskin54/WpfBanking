@@ -1,0 +1,48 @@
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose_MarkupCompile.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose_MarkupCompile.lref
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.g.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.Properties.Resources.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.UI.Banking.AccountClose.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose_MarkupCompile.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose_MarkupCompile.lref
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.g.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.Properties.Resources.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountClose\obj\Debug\BOA.UI.Banking.AccountClose.pdb

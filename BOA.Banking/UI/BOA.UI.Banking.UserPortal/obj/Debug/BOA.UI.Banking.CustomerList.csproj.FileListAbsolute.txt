@@ -1,0 +1,90 @@
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\CustomerList.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal_MarkupCompile.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal_MarkupCompile.lref
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\CustomerList.baml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.g.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.Properties.Resources.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.CopyComplete
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.UserPortal.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.AccountAdd.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAdd.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\CustomerList.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal_MarkupCompile.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal_MarkupCompile.lref
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\CustomerList.baml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.g.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.Properties.Resources.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.CustomerList.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\obj\Debug\BOA.UI.Banking.UserPortal.pdb

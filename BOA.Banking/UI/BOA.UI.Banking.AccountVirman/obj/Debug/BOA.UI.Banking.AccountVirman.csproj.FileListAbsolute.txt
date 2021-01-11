@@ -1,0 +1,60 @@
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman_MarkupCompile.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman_MarkupCompile.lref
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.g.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.Properties.Resources.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.CopyComplete
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.UI.Banking.AccountVirman.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csprojAssemblyReference.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman_MarkupCompile.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman_MarkupCompile.lref
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.g.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.Properties.Resources.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.pdb

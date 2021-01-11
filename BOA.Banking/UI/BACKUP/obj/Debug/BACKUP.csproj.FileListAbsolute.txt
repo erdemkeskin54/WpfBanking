@@ -1,0 +1,5 @@
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BACKUP\obj\Debug\Login.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BACKUP\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BACKUP\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BACKUP\obj\Debug\BACKUP_MarkupCompile.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BACKUP\obj\Debug\BACKUP_MarkupCompile.lref

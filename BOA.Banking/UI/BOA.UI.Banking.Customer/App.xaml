@@ -1,0 +1,9 @@
+﻿<Application x:Class="BOA.UI.Banking.Portal.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BOA.UI.Banking.Portal"
+             StartupUri="Portal.xaml">
+    <Application.Resources>
+        
+    </Application.Resources>
+</Application>

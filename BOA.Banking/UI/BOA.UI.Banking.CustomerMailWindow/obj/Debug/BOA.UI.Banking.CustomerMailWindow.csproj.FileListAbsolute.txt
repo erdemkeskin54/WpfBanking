@@ -1,0 +1,46 @@
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe.config
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow_MarkupCompile.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow_MarkupCompile.lref
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.g.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.Properties.Resources.resources
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.CopyComplete
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Connector.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Types.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Business.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Connector.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\MainWindow.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\App.g.cs
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow_MarkupCompile.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow_MarkupCompile.lref
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\MainWindow.baml
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.g.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.Properties.Resources.resources
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.GenerateResource.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.CoreCompileInputs.cache
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.CopyComplete
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.pdb

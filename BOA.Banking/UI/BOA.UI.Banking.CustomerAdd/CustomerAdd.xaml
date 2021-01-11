@@ -1,0 +1,330 @@
+﻿<Window x:Class="BOA.UI.Banking.CustomerAdd.CustomerAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BOA.UI.Banking.CustomerAdd" xmlns:iconPacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material"
+        mc:Ignorable="d"
+        Title="Müşteri Tanımlama" Height="880.188" Width="702.214" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+
+
+
+        <Border Grid.Row="0" BorderBrush="Gainsboro" BorderThickness="2">
+            <DockPanel HorizontalAlignment="Left">
+                <Button Margin="0,0,1,0" Name="btnCustomerAdd" Width="100" Click="btnCustomerAdd_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <iconPacks:PackIconMaterial Kind="ContentSave" Width="20" Height="20"/>
+                        <TextBlock Margin="3,3,3,3">Kaydet</TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button Margin="0,0,1,0" Name="btnCustomerDelete" Width="100" Click="btnCustomerDelete_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <iconPacks:PackIconMaterial Kind="delete" Width="20" Height="20"/>
+
+                        <TextBlock Margin="3,3,3,3">Sil</TextBlock>
+                    </StackPanel>
+                </Button>
+
+                <Button Margin="0,0,1,0" Name="btnCloseCustomerAdd" Width="100" Click="btnCloseCustomerAdd_Click" >
+                    <StackPanel Orientation="Horizontal">
+                        <iconPacks:PackIconMaterial Kind="Power" Width="20" Height="20"/>
+
+                        <TextBlock Margin="3,3,3,3">Kapat</TextBlock>
+                    </StackPanel>
+                </Button>
+            </DockPanel>
+        </Border>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="500"/>
+                <RowDefinition Height="250"/>
+
+
+            </Grid.RowDefinitions>
+            <GroupBox Header="Müşteri Bilgisi" Margin="10" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="92"/>
+                        <ColumnDefinition Width="120" />
+                        <ColumnDefinition Width="95"/>
+                        <ColumnDefinition Width="141"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Content="Müşteri No"  VerticalAlignment="Center" Height="26" ></Label>
+                    <Label Grid.Row="1" Content="TCKN"  VerticalAlignment="Center" Height="26" ></Label>
+                    <Label Grid.Row="2" Content="Ad" VerticalAlignment="Center" Height="26"   />
+                    <Label Grid.Row="3" Content="Soyad"  VerticalAlignment="Center" Height="26"  ></Label>
+
+                    <TextBox Grid.Row="0" Name="txtCustomerAddNo" IsEnabled="False" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Right" Width="120" Grid.Column="1"  />
+                    <TextBox Grid.Row="1"  Name="txtCustomerAddTaxNumber" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Right" Width="120" Grid.Column="1" />
+                    <TextBox Grid.Row="2" Name="txtCustomerAddName" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Right" Width="120" Grid.Column="1"  />
+                    <TextBox Grid.Row="3" Name="txtCustomerAddSurName" VerticalAlignment="Center" Height="20" HorizontalAlignment="Right" Width="120" Grid.Column="1"  />
+
+                    <Label Grid.Row="0" Grid.Column="2" Content="Anne Adı" VerticalAlignment="Center" Margin="12,2,0,3" Height="26" />
+                    <Label Grid.Row="1" Grid.Column="2" Content="Baba Adı"  VerticalAlignment="Center" Margin="12,3,0,2" Height="26" ></Label>
+                    <Label Grid.Row="2" Grid.Column="2" Content="Doğum Yeri"  VerticalAlignment="Center" Margin="12,2,0,3" Height="26"></Label>
+                    <Label Grid.Row="3" Grid.Column="2" Content="Doğum Tarihi"  VerticalAlignment="Center" Margin="12,3,0,2" Height="26"></Label>
+
+
+                    <TextBox Grid.Row="0" Grid.Column="3" Name="txtCustomerAddMomName" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Right" Width="120"  />
+                    <TextBox Grid.Row="1" Grid.Column="3" Name="txtCustomerAddFatherName" VerticalAlignment="Center" Height="20" HorizontalAlignment="Right" Width="120"  />
+                    <TextBox Grid.Row="2" Grid.Column="3" Name="txtCustomerAddBirthPlace" VerticalAlignment="Center" Height="20" HorizontalAlignment="Right" Width="120" />
+                    <DatePicker Grid.Row="3" Grid.Column="3" x:Name="dpBirthDate" VerticalAlignment="Center" Height="25" HorizontalAlignment="Right" Width="120" Margin="0,6,0,0"></DatePicker>
+
+                    <Label Grid.Row="1" Grid.Column="4" Content="Eğitim Düzeyi" VerticalAlignment="Center" Margin="12,2,0,3" Height="26" />
+                    <Label Grid.Row="2" Grid.Column="4" Content="Mesleği" VerticalAlignment="Center" Margin="12,2,0,3" Height="26" />
+
+                    <ComboBox Grid.Row="1" Grid.Column="5" Name="cbCustomerAddEducation" VerticalAlignment="Center" Height="20" HorizontalAlignment="Right" Width="141"  />
+                    <ComboBox Grid.Row="2" Grid.Column="5" Name="cbCustomerAddJob" VerticalAlignment="Center" Height="20" HorizontalAlignment="Right" Width="141"  />
+
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="gbContact" Grid.Row="1" Header="İletişim Bilgileri" Margin="10" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15" />
+                        <RowDefinition Height="180" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="15" />
+                        <RowDefinition Height="180" />
+                        <RowDefinition Height="30" />
+                    </Grid.RowDefinitions>
+                    <TextBlock VerticalAlignment="Center"> <Bold FontSize="10">Adres</Bold> </TextBlock>
+                    <TextBlock Grid.Row="3" VerticalAlignment="Center"> <Bold FontSize="10">Mail</Bold></TextBlock>
+                    <TextBlock Grid.Column="1" VerticalAlignment="Center"> <Bold FontSize="10">Telefon</Bold></TextBlock>
+
+                    <DataGrid Name="dgCustomerAddress" Grid.Row="1" Grid.Column="0" Background="Transparent"
+                          VerticalGridLinesBrush="Transparent" HorizontalGridLinesBrush="WhiteSmoke"
+                            SelectionMode="Single" SelectionUnit="FullRow" 
+                          CanUserAddRows="False" CanUserDeleteRows="False"  AutoGenerateColumns="True"
+                          HorizontalAlignment="Stretch" BorderBrush="Gainsboro" BorderThickness="2"
+                          VerticalAlignment="Stretch" AutoGeneratingColumn="dgCustomerAddress_AutoGeneratingColumn"  
+                           >
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Foreground" Value="#FF895151"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="0,10,10,0"/>
+                                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                            <Grid Background="{TemplateBinding Background}">
+                                                <ContentPresenter VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DataGrid.CellStyle>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="Height" Value="40"/>
+                                <Setter Property="Foreground" Value="#959595"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.RowHeaderStyle>
+                            <Style TargetType="DataGridRowHeader">
+                                <Style.Resources>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="HorizontalAlignment" Value="Center" />
+                                    </Style>
+                                </Style.Resources>
+                            </Style>
+                        </DataGrid.RowHeaderStyle>
+
+                    </DataGrid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAddAddress" Click="btnAddAddress_Click">Adres Ekle</Button>
+                        <Button Grid.Column="1" x:Name="btnUpdateAddress" Click="btnUpdateAddress_Click">Adresi Güncelle</Button>
+                        <Button Grid.Column="2" x:Name="btnDeleteAddress" Click="btnDeleteAddress_Click">Adresi Sil</Button>
+
+                    </Grid>
+
+                    <DataGrid Name="dgCustomerPhone" Grid.Row="1" Grid.Column="1" Background="Transparent"
+                          VerticalGridLinesBrush="Transparent" HorizontalGridLinesBrush="WhiteSmoke"
+                            SelectionMode="Single" SelectionUnit="FullRow" 
+                          CanUserAddRows="False" CanUserDeleteRows="False"  AutoGenerateColumns="True"
+                          HorizontalAlignment="Stretch" BorderBrush="Gainsboro" BorderThickness="2"
+                          VerticalAlignment="Stretch" AutoGeneratingColumn="dgCustomerPhone_AutoGeneratingColumn" 
+                           >
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Foreground" Value="#FF895151"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="0,10,10,0"/>
+                                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                            <Grid Background="{TemplateBinding Background}">
+                                                <ContentPresenter VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DataGrid.CellStyle>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="Height" Value="40"/>
+                                <Setter Property="Foreground" Value="#959595"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.RowHeaderStyle>
+                            <Style TargetType="DataGridRowHeader">
+                                <Style.Resources>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="HorizontalAlignment" Value="Center" />
+                                    </Style>
+                                </Style.Resources>
+                            </Style>
+                        </DataGrid.RowHeaderStyle>
+
+                    </DataGrid>
+
+                    <Grid Grid.Row="2" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAddPhone" Click="btnAddPhone_Click">Telefon Ekle</Button>
+                        <Button Grid.Column="1" x:Name="btnUpdatePhone" Click="btnUpdatePhone_Click">Telefonu Güncelle</Button>
+                        <Button Grid.Column="2" x:Name="btnDeletePhone" Click="btnDeletePhone_Click">Telefonu Sil</Button>
+
+                    </Grid>
+
+                    <DataGrid Name="dgCustomerMail" Grid.Row="4" Grid.Column="0" Background="Transparent"
+                          VerticalGridLinesBrush="Transparent" HorizontalGridLinesBrush="WhiteSmoke"
+                            SelectionMode="Single" SelectionUnit="FullRow" 
+                          CanUserAddRows="False" CanUserDeleteRows="False"  AutoGenerateColumns="True"
+                          HorizontalAlignment="Stretch" BorderBrush="Gainsboro" BorderThickness="2"
+                          VerticalAlignment="Stretch" AutoGeneratingColumn="dgCustomerMail_AutoGeneratingColumn" 
+                           >
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Background" Value="Transparent"/>
+                                <Setter Property="Foreground" Value="#FF895151"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="Margin" Value="0,10,10,0"/>
+                                <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                                <Setter Property="VerticalAlignment" Value="Stretch"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                            <Grid Background="{TemplateBinding Background}">
+                                                <ContentPresenter VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DataGrid.CellStyle>
+                        <DataGrid.RowStyle>
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="Height" Value="40"/>
+                                <Setter Property="Foreground" Value="#959595"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            </Style>
+                        </DataGrid.RowStyle>
+                        <DataGrid.RowHeaderStyle>
+                            <Style TargetType="DataGridRowHeader">
+                                <Style.Resources>
+                                    <Style TargetType="StackPanel">
+                                        <Setter Property="HorizontalAlignment" Value="Center" />
+                                    </Style>
+                                </Style.Resources>
+                            </Style>
+                        </DataGrid.RowHeaderStyle>
+
+                    </DataGrid>
+
+                    <Grid Grid.Row="5" Grid.Column="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAddMail" Click="btnAddMail_Click">Mail Ekle</Button>
+                        <Button Grid.Column="1" x:Name="btnUpdateMail" Click="btnUpdateMail_Click">Mail Güncelle</Button>
+                        <Button Grid.Column="2" x:Name="btnDeleteMail" Click="btnDeleteMail_Click">Mail Sil</Button>
+
+                    </Grid>
+
+                </Grid>
+
+            </GroupBox>
+
+
+
+        </Grid>
+
+
+    </Grid>
+</Window>
