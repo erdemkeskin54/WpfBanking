@@ -110,6 +110,10 @@
       <Project>{dcf4bc5a-9ff1-4398-8233-a95ef2302aed}</Project>
       <Name>BOA.Types.Banking</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UserControls\UC.CustomerSelect\UC.CustomerSelect.csproj">
+      <Project>{9D74C28A-BDEB-46A7-B65E-3E717C2515AC}</Project>
+      <Name>UC.CustomerSelect</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

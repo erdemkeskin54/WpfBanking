@@ -139,6 +139,19 @@ namespace BOA.UI.Banking.Portal
             //MessageBox.Show("Selected=" + tcPortal.SelectedIndex+"///" +tcPortal.Items.Contains("tcVirmanAdd"), "Message", MessageBoxButton.OK);
         }
 
+        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            
+            UC.CustomerSelect.UserControl1 addUC = new UC.CustomerSelect.UserControl1();
+            TabItem tabUCCustomerAdd = new TabItem();
+            tabUCCustomerAdd.Content = addUC.Content;
+            tabUCCustomerAdd.Header = "CustomerSelect";
+            tabUCCustomerAdd.Name = "tcCustomerSelect";
+            tabUCCustomerAdd.IsSelected = true;
+            tcPortal.Items.Add(tabUCCustomerAdd);
+            
+        }
+
 
 
         /* UserControl kullanım örneği

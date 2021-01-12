@@ -30,12 +30,16 @@ namespace BOA.Process.Banking
         }
 
 
-        public int GetAccountLastSuffixNumber(AccountRequest request)
+        public AccountResponse GetAccountLastSuffixNumber(AccountRequest request)
         {
             Business.Banking.Account accountBusiness = new Business.Banking.Account();
             int lastsuffix = accountBusiness.GetAccountLastSuffixNumber(request.accountContract);
 
-            return lastsuffix;
+            return new AccountResponse()
+            {
+                suffix=lastsuffix,
+                IsSuccess = true
+            };
         }
 
         public AccountResponse AccountAll(AccountRequest request)

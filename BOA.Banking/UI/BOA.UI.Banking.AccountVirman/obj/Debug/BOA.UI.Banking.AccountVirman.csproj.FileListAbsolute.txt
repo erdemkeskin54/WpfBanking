@@ -58,3 +58,5 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.csproj.CopyComplete
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\obj\Debug\BOA.UI.Banking.AccountVirman.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\UC.CustomerSelect.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountVirman\bin\Debug\UC.CustomerSelect.pdb

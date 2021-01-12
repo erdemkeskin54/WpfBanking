@@ -56,13 +56,13 @@ namespace BOA.UI.Banking.CustomerList
         }
         public bool verileriGetir(CustomerContract customer)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
             var request = new Types.Banking.CustomerRequest();
 
             request.customer = customer;
             request.MethodName = "GetCustomers";
 
-            var response = connect.ExecuteCustomer(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -79,13 +79,13 @@ namespace BOA.UI.Banking.CustomerList
 
         public bool CustomerAll(CustomerContract customer)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
             var request = new Types.Banking.CustomerRequest();
 
             request.customer = customer;
             request.MethodName = "CustomerAll";
 
-            var response = connect.ExecuteCustomer(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

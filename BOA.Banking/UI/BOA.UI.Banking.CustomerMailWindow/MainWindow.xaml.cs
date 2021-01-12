@@ -55,13 +55,13 @@ namespace BOA.UI.Banking.CustomerMailWindow
                 _customerMail.Id = Convert.ToInt32(txtMailId.Text);
                 _customerMail.MailAddress = txtMailAddress.Text;
                 
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerMailResponse>();
                 var request = new Types.Banking.CustomerMailRequest();
 
                 request.customerMail = _customerMail;
                 request.MethodName = "UpdCustomerMail";
 
-                var response = connect.ExecuteGetCustomerMail(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {
@@ -90,13 +90,13 @@ namespace BOA.UI.Banking.CustomerMailWindow
                     return;
                 }
                 _customerMail.MailAddress = txtMailAddress.Text;
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerMailResponse>();
                 var request = new Types.Banking.CustomerMailRequest();
 
                 request.customerMail = _customerMail;
                 request.MethodName = "AddCustomerMail";
 
-                var response = connect.ExecuteGetCustomerMail(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {

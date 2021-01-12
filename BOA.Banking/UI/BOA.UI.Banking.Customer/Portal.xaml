@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BOA.UI.Banking.Portal"
-        xmlns:iconPacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" xmlns:accountvirman="clr-namespace:BOA.UI.Banking.AccountVirman;assembly=BOA.UI.Banking.AccountVirman"
+        xmlns:iconPacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material" 
         mc:Ignorable="d"
         Title="BOA" Height="846.885" Width="1132.282"
         Icon="logo.png" WindowStartupLocation="CenterScreen">
@@ -117,6 +117,15 @@
                             </TreeViewItem.Header>
                         </TreeViewItem>
 
+                    </TreeViewItem>
+                    <TreeViewItem>
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <Border Background="Red" Width="8" Height="12"
+                       BorderBrush="#00000000"></Border>
+                                <Label Content="User Control" MouseDoubleClick="Label_MouseDoubleClick"></Label>
+                            </StackPanel>
+                        </TreeViewItem.Header>
                     </TreeViewItem>
                 </TreeView>
 

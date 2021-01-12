@@ -46,23 +46,17 @@ namespace BOA.UI.Banking.CustomerPhoneWindow
                     txtPhoneAddress.Focus();
                     return;
                 }
-                else if (!isValidPhone(txtPhoneAddress.Text))
-                {
-                    MessageBox.Show("Telefon formatı yanlış", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    txtPhoneAddress.Focus();
-                    return;
-                }
 
                 _customerPhone.Id = Convert.ToInt32(txtPhoneId.Text);
                 _customerPhone.Phone = txtPhoneAddress.Text;
 
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerPhoneResponse>();
                 var request = new Types.Banking.CustomerPhoneRequest();
 
                 request.customerPhone = _customerPhone;
                 request.MethodName = "UpdCustomerPhone";
 
-                var response = connect.ExecuteGetCustomerPhone(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {
@@ -84,20 +78,15 @@ namespace BOA.UI.Banking.CustomerPhoneWindow
                     txtPhoneAddress.Focus();
                     return;
                 }
-                else if (!isValidPhone(txtPhoneAddress.Text))
-                {
-                    MessageBox.Show("Telefon formatı yanlış", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    txtPhoneAddress.Focus();
-                    return;
-                }
+
                 _customerPhone.Phone = txtPhoneAddress.Text;
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerPhoneResponse>();
                 var request = new Types.Banking.CustomerPhoneRequest();
 
                 request.customerPhone = _customerPhone;
                 request.MethodName = "AddCustomerPhone";
 
-                var response = connect.ExecuteGetCustomerPhone(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {

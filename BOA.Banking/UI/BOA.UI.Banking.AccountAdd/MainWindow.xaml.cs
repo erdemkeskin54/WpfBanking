@@ -236,13 +236,13 @@ namespace BOA.UI.Banking.AccountAdd
         }
         private void DeleteAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "DeleteAccount";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -258,13 +258,13 @@ namespace BOA.UI.Banking.AccountAdd
         }
         private void UpdateAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "UpdateAccount";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -281,13 +281,13 @@ namespace BOA.UI.Banking.AccountAdd
 
         private void AddAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "AddAccount";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -304,13 +304,13 @@ namespace BOA.UI.Banking.AccountAdd
 
         private void GetAccountLastSuffixNumber(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccountLastSuffixNumber";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
             suffix = response.suffix;
 
             if (accountContract.FECId == 1)
@@ -334,13 +334,13 @@ namespace BOA.UI.Banking.AccountAdd
         }
         public bool GetAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccount";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -369,13 +369,13 @@ namespace BOA.UI.Banking.AccountAdd
 
         public bool ComboboxCustomer(CustomerContract customer)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
             var request = new Types.Banking.CustomerRequest();
 
             request.customer = customer;
             request.MethodName = "CustomerAll";
 
-            var response = connect.ExecuteCustomer(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -405,12 +405,12 @@ namespace BOA.UI.Banking.AccountAdd
         }
         private void comboboxFEC()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<FECResponse>();
             var request = new Types.Banking.FECRequest();
 
             request.MethodName = "GetFECs";
 
-            var response = connect.ExecuteFEC(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -429,12 +429,12 @@ namespace BOA.UI.Banking.AccountAdd
         }
         private void comboboxBranch()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<BranchResponse>();
             var request = new Types.Banking.BranchRequest();
 
             request.MethodName = "GetBranches";
 
-            var response = connect.ExecuteBranch(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

@@ -137,6 +137,10 @@
       <Project>{d90d46de-3b6b-4034-8afe-c2c8d834926b}</Project>
       <Name>BOA.UI.Banking.CustomerList</Name>
     </ProjectReference>
+    <ProjectReference Include="..\UserControls\UC.CustomerSelect\UC.CustomerSelect.csproj">
+      <Project>{9d74c28a-bdeb-46a7-b65e-3e717c2515ac}</Project>
+      <Name>UC.CustomerSelect</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModel\" />

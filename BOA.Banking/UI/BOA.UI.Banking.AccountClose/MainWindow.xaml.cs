@@ -49,13 +49,13 @@ namespace BOA.UI.Banking.AccountClose
         }
         private void UpdateAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "UpdateAccount";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

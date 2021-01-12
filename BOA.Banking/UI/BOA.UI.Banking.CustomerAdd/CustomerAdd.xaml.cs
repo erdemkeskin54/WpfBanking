@@ -66,12 +66,12 @@ namespace BOA.UI.Banking.CustomerAdd
 
         private void comboboxEducations()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<EducationResponse>();
             var request = new Types.Banking.EducationRequest();
 
             request.MethodName = "GetEducations";
 
-            var response = connect.ExecuteGetEducations(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -90,12 +90,12 @@ namespace BOA.UI.Banking.CustomerAdd
         }
         private void comboboxJobs()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<JobResponse>();
             var request = new Types.Banking.JobRequest();
 
             request.MethodName = "GetJobs";
 
-            var response = connect.ExecuteGetJobs(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -116,13 +116,13 @@ namespace BOA.UI.Banking.CustomerAdd
         private void GetCustomerAddress(Types.Banking.CustomerAddressContract customerAddress)
         {
             customerAddresses = new List<Types.Banking.CustomerAddressContract>();
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerAddressResponse>();
             var request = new Types.Banking.CustomerAddressRequest();
 
             request.customerAddress =customerAddress;
             request.MethodName = "GetCustomerAddress";
 
-            var response = connect.ExecuteGetCustomerAddress(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -143,13 +143,13 @@ namespace BOA.UI.Banking.CustomerAdd
         private void GetCustomerPhone(CustomerPhoneContract customerPhone)
         {
             customerPhones = new List<CustomerPhoneContract>();
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerPhoneResponse>();
             var request = new Types.Banking.CustomerPhoneRequest();
 
             request.customerPhone= customerPhone;
             request.MethodName = "GetCustomerPhone";
 
-            var response = connect.ExecuteGetCustomerPhone(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -170,13 +170,13 @@ namespace BOA.UI.Banking.CustomerAdd
         private void GetCustomerMail(CustomerMailContract customerMail)
         {
             customerMails = new List<CustomerMailContract>();
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerMailResponse>();
             var request = new Types.Banking.CustomerMailRequest();
 
             request.customerMail = customerMail;
             request.MethodName = "GetCustomerMail";
 
-            var response = connect.ExecuteGetCustomerMail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -201,16 +201,18 @@ namespace BOA.UI.Banking.CustomerAdd
         //Customer CRUD 
         public bool GetCustomerDetail(CustomerDetailContract customerDetail)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerDetailResponse>();
             var request = new Types.Banking.CustomerDetailRequest();
 
             request.customerDetail = customerDetail;
             request.MethodName = "GetCustomerDetail";
 
-            var response = connect.ExecuteCustomerDetail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
+
+                gbContact.IsEnabled = true;
                 customerDetail = response.customerDetail;
                 cbCustomerAddEducation.SelectedIndex = (int)response.customerDetail.EducationId - 1;
                 cbCustomerAddJob.SelectedIndex = (int)response.customerDetail.JobId - 1;
@@ -234,13 +236,13 @@ namespace BOA.UI.Banking.CustomerAdd
         }
         private CustomerDetailContract UpdateCustomerDetail(CustomerDetailContract customerDetail)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerDetailResponse>();
             var request = new Types.Banking.CustomerDetailRequest();
 
             request.customerDetail = customerDetail;
             request.MethodName = "UpdateCustomerDetail";
 
-            var response = connect.ExecuteCustomerDetail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -254,13 +256,13 @@ namespace BOA.UI.Banking.CustomerAdd
         }
         private CustomerDetailContract AddCustomerDetail(CustomerDetailContract customerDetail)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerDetailResponse>();
             var request = new Types.Banking.CustomerDetailRequest();
 
             request.customerDetail = customerDetail;
             request.MethodName = "AddCustomerDetail";
 
-            var response = connect.ExecuteCustomerDetail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -274,13 +276,13 @@ namespace BOA.UI.Banking.CustomerAdd
         }
         private CustomerDetailContract DeleteCustomerDetail(CustomerDetailContract customerDetail)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerDetailResponse>();
             var request = new Types.Banking.CustomerDetailRequest();
 
             request.customerDetail = customerDetail;
             request.MethodName = "DeleteCustomerDetail";
 
-            var response = connect.ExecuteCustomerDetail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -532,6 +534,8 @@ namespace BOA.UI.Banking.CustomerAdd
                 customerDetail = AddCustomerDetail(customerDetail);
                 MessageBox.Show("Yeni Eklenen Müşteri ID = " + customerDetail.Id, "Message", MessageBoxButton.OK, MessageBoxImage.Information);
                 GetCustomerDetail(customerDetail);
+                
+
             }
         }
         private void btnCustomerDelete_Click(object sender, RoutedEventArgs e)
@@ -712,13 +716,13 @@ namespace BOA.UI.Banking.CustomerAdd
             Types.Banking.CustomerAddressContract customerAddress = new Types.Banking.CustomerAddressContract();
             customerAddress = dgCustomerAddress.SelectedItem as Types.Banking.CustomerAddressContract;
             
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerAddressResponse>();
             var request = new Types.Banking.CustomerAddressRequest();
 
             request.customerAddress = customerAddress;
             request.MethodName = "DelCustomerAddress";
 
-            var response = connect.ExecuteGetCustomerAddress(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -767,13 +771,13 @@ namespace BOA.UI.Banking.CustomerAdd
             CustomerMailContract customerMail = new CustomerMailContract();
             customerMail = dgCustomerMail.SelectedItem as CustomerMailContract;
 
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerMailResponse>();
             var request = new Types.Banking.CustomerMailRequest();
 
             request.customerMail = customerMail;
             request.MethodName = "DelCustomerMail";
 
-            var response = connect.ExecuteGetCustomerMail(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -820,13 +824,13 @@ namespace BOA.UI.Banking.CustomerAdd
             CustomerPhoneContract customerPhone = new CustomerPhoneContract();
             customerPhone = dgCustomerPhone.SelectedItem as CustomerPhoneContract;
 
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerPhoneResponse>();
             var request = new Types.Banking.CustomerPhoneRequest();
 
             request.customerPhone = customerPhone;
             request.MethodName = "DelCustomerPhone";
 
-            var response = connect.ExecuteGetCustomerPhone(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

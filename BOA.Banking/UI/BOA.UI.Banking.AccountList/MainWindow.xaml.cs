@@ -47,13 +47,13 @@ namespace BOA.UI.Banking.AccountList
         private void GetAccounts(AccountContract accountContract)
         {
             //tüm hesaplar
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = _accountContract;
             request.MethodName = "GetAccounts";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -71,12 +71,12 @@ namespace BOA.UI.Banking.AccountList
         private void AccountAll()
         {
             //tüm hesaplar
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.MethodName = "AccountAll";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

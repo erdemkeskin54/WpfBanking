@@ -32,13 +32,13 @@ namespace BOA.UI.Banking.PaymentList
         }
         public bool ComboboxCustomer(CustomerContract customer)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
             var request = new Types.Banking.CustomerRequest();
 
             request.customer = customer;
             request.MethodName = "CustomerAll";
 
-            var response = connect.ExecuteCustomer(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -55,12 +55,12 @@ namespace BOA.UI.Banking.PaymentList
         }
         private void comboboxPaymentTypes()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<PaymentTypesResponse>();
             var request = new Types.Banking.PaymentTypesRequest();
 
             request.MethodName = "GetPaymentTypes";
 
-            var response = connect.ExecutePaymentTypes(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -79,13 +79,13 @@ namespace BOA.UI.Banking.PaymentList
         }
         private void GetSuffix(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccounts";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -106,13 +106,13 @@ namespace BOA.UI.Banking.PaymentList
         }
         private void GetAccount(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccounts";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -133,7 +133,7 @@ namespace BOA.UI.Banking.PaymentList
 
         private void GetPayment(PaymentContract paymentContract,DateTime? startDate,DateTime? finishDate)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<PaymentResponse>();
             var request = new Types.Banking.PaymentRequest();
 
             request.paymentContract = paymentContract;
@@ -141,7 +141,7 @@ namespace BOA.UI.Banking.PaymentList
             request.StartDate = startDate;
             request.MethodName = "GetPayment";
 
-            var response = connect.ExecutePayment(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {

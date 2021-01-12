@@ -52,23 +52,18 @@ namespace BOA.UI.Banking.CustomerAddressWindow
                     txtAddress.Focus();
                     return;
                 }
-                else if (!isValidText(txtAddress.Text))
-                {
-                    MessageBox.Show("Adres yanlış karakterler içeriyor", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    txtAddress.Focus();
-                    return;
-                }
+
                 _customerAddress.Id = Convert.ToInt32(txtAddressId.Text);
                 _customerAddress.Title = txtAddressTitle.Text;
                 _customerAddress.Address = txtAddress.Text;
                 
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerAddressResponse>();
                 var request = new Types.Banking.CustomerAddressRequest();
 
                 request.customerAddress = _customerAddress;
                 request.MethodName = "UpdCustomerAddress";
 
-                var response = connect.ExecuteGetCustomerAddress(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {
@@ -98,22 +93,17 @@ namespace BOA.UI.Banking.CustomerAddressWindow
                     txtAddress.Focus();
                     return;
                 }
-                else if (!isValidText(txtAddress.Text))
-                {
-                    MessageBox.Show("Adres yanlış karakterler içeriyor", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    txtAddress.Focus();
-                    return;
-                }
+
                 _customerAddress.Title = txtAddressTitle.Text;
                 _customerAddress.Address = txtAddress.Text;
 
-                var connect = new Connector.Banking.Connect();
+                var connect = new Connector.Banking.GenericConnect<CustomerAddressResponse>();
                 var request = new Types.Banking.CustomerAddressRequest();
 
                 request.customerAddress = _customerAddress;
                 request.MethodName = "AddCustomerAddress";
 
-                var response = connect.ExecuteGetCustomerAddress(request);
+                var response = connect.Execute(request);
 
                 if (response.IsSuccess == true)
                 {

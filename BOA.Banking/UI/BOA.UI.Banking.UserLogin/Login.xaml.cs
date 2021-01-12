@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BOA.Types.Banking;
 using BOA.UI.Banking.Portal;
 
 namespace BOA.UI.Banking.Login
@@ -29,7 +30,7 @@ namespace BOA.UI.Banking.Login
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<LoginResponse>();
             var request = new Types.Banking.LoginRequest();
             var loginContract = new Types.Banking.LoginContract();
 

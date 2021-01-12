@@ -25,21 +25,19 @@ namespace BOA.UI.Banking.AccountVirman
         public MainWindow()
         {
             InitializeComponent();
-            ComboboxCustomer(new CustomerContract());
+            //ComboboxCustomer(new CustomerContract());
             comboboxBranch();
             comboboxFEC();
             dpVirmanDate.SelectedDate = DateTime.Now;
-            
         }
 
 
         private void btnAddVirman_Click(object sender, RoutedEventArgs e)
         {
 
-            if (cbAccountCustomer.SelectedIndex == -1)
+            if (ucCustomer.selectedComboboxIndex == -1)
             {
                 MessageBox.Show("Müşteri boş geçilemez", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                cbAccountCustomer.Focus();
                 return;
             }
             if (cbAccountBranch.SelectedIndex == -1)
@@ -74,12 +72,9 @@ namespace BOA.UI.Banking.AccountVirman
                 return;
             }
 
-            
-
-
             VirmanContract virmanContract = new VirmanContract();
 
-            virmanContract.AccountFirstId=selectedFirstAccount.Id;
+            virmanContract.AccountFirstId = selectedFirstAccount.Id;
             virmanContract.AccountSecondId = selectedSecondAccount.Id;
             virmanContract.Description = txtVirmanDesc.Text;
             virmanContract.Amount = Convert.ToDecimal(txtVirmanAmount.Text);
@@ -89,27 +84,23 @@ namespace BOA.UI.Banking.AccountVirman
 
         private void btnCloseVirmanAdd_Click(object sender, RoutedEventArgs e)
         {
-            var object1=Application.Current.MainWindow;
-            var object2=object1.Owner;
-
-            /*
-            string namaSpace = "BOA.UI.Banking.Portal";
-            Assembly assembly = Assembly.Load(namaSpace);
-            var instance = assembly.CreateInstance(namaSpace + ".Portal");
-            var tempResponse = instance.GetType().GetMethod("closeTab").Invoke(instance,null);
-            */
+            //if (uc_CustomerSelect.customerContract==null)
+            //{
+            //    return;
+            //}
+            //MessageBox.Show("Hesap:"+uc_CustomerSelect.customerContract.Name, "Message", MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
         //Yardımcı Fonksiyonlar
         private void GetAccountsGridFirst(AccountContract accountContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccounts";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -127,17 +118,17 @@ namespace BOA.UI.Banking.AccountVirman
         {
             AccountContract selectedAccount = dgAccountFirst.SelectedItem as AccountContract;
 
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<AccountResponse>();
             var request = new Types.Banking.AccountRequest();
 
             request.accountContract = accountContract;
             request.MethodName = "GetAccounts";
 
-            var response = connect.ExecuteAccount(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
-                dgAccountSecond.ItemsSource = response.accountContracts.Where(x=>x.Suffix!= selectedAccount.Suffix);
+                dgAccountSecond.ItemsSource = response.accountContracts.Where(x => x.Suffix != selectedAccount.Suffix);
                 dgAccountSecond.Items.Refresh();
                 return;
             }
@@ -149,13 +140,13 @@ namespace BOA.UI.Banking.AccountVirman
         }
         private void AddVirman(VirmanContract virmanContract)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<VirmanResponse>();
             var request = new Types.Banking.VirmanRequest();
 
             request.virmanContract = virmanContract;
             request.MethodName = "AddVirman";
 
-            var response = connect.ExecuteVirman(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -173,20 +164,22 @@ namespace BOA.UI.Banking.AccountVirman
         //Combobox
         private bool ComboboxCustomer(CustomerContract customer)
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
             var request = new Types.Banking.CustomerRequest();
 
             request.customer = customer;
             request.MethodName = "CustomerAll";
 
-            var response = connect.ExecuteCustomer(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
+                /*
                 cbAccountCustomer.ItemsSource = response.customers;
                 cbAccountCustomer.DisplayMemberPath = "Name";
                 cbAccountCustomer.SelectedValuePath = "Id";
                 cbAccountCustomer.Items.Refresh();
+                */
             }
             else
             {
@@ -196,12 +189,12 @@ namespace BOA.UI.Banking.AccountVirman
         }
         private void comboboxBranch()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<BranchResponse>();
             var request = new Types.Banking.BranchRequest();
 
             request.MethodName = "GetBranches";
 
-            var response = connect.ExecuteBranch(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -220,12 +213,12 @@ namespace BOA.UI.Banking.AccountVirman
         }
         private void comboboxFEC()
         {
-            var connect = new Connector.Banking.Connect();
+            var connect = new Connector.Banking.GenericConnect<FECResponse>();
             var request = new Types.Banking.FECRequest();
 
             request.MethodName = "GetFECs";
 
-            var response = connect.ExecuteFEC(request);
+            var response = connect.Execute(request);
 
             if (response.IsSuccess == true)
             {
@@ -242,25 +235,22 @@ namespace BOA.UI.Banking.AccountVirman
                 return;
             }
         }
-        private void cbAccountCustomer_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
         private void cbAccountBranch_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (cbAccountCustomer.SelectedIndex == -1)
-            { 
+            if (ucCustomer.selectedComboboxIndex == -1)
+            {
                 MessageBox.Show("Hesabı seçmediniz", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                cbAccountCustomer.SelectedIndex = -1;
-                    return; 
+                ucCustomer.selectedComboboxIndex = -1;
+                return;
             }
 
-            GetAccountsGridFirst(new AccountContract() { 
-                AccountOwnerId=(int)cbAccountCustomer.SelectedValue,
-                BranchId=(int)cbAccountBranch.SelectedValue
+            GetAccountsGridFirst(new AccountContract()
+            {
+                AccountOwnerId = (int)ucCustomer.customerContract.Id,
+                BranchId = (int)cbAccountBranch.SelectedValue
             });
 
-            
+
 
         }
 
@@ -378,7 +368,7 @@ namespace BOA.UI.Banking.AccountVirman
         }
         private void dgAccountFirst_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (dgAccountFirst.SelectedIndex==-1)
+            if (dgAccountFirst.SelectedIndex == -1)
             {
                 dgAccountSecond.ItemsSource = null;
                 return;
@@ -389,7 +379,7 @@ namespace BOA.UI.Banking.AccountVirman
             {
                 AccountOwnerId = (int)selectedAccount.AccountOwnerId,
                 BranchId = (int)selectedAccount.BranchId,
-                FECId=(int)selectedAccount.FECId
+                FECId = (int)selectedAccount.FECId
             });
             cbFEC.SelectedValue = selectedAccount.FECId;
         }
@@ -398,6 +388,5 @@ namespace BOA.UI.Banking.AccountVirman
 
         }
 
-        
     }
 }
