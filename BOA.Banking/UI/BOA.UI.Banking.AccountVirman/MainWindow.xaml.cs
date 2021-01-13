@@ -30,11 +30,10 @@ namespace BOA.UI.Banking.AccountVirman
             comboboxFEC();
             dpVirmanDate.SelectedDate = DateTime.Now;
         }
-
+       
 
         private void btnAddVirman_Click(object sender, RoutedEventArgs e)
         {
-
             if (ucCustomer.selectedComboboxIndex == -1)
             {
                 MessageBox.Show("Müşteri boş geçilemez", "Message", MessageBoxButton.OK, MessageBoxImage.Error);

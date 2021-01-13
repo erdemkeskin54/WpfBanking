@@ -7,17 +7,17 @@
              mc:Ignorable="d" Background="White"
              d:DesignHeight="35" d:DesignWidth="370" >
     <Grid>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="100"/>
-                    <ColumnDefinition Width="270" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30"/>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="270" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
 
-                </Grid.RowDefinitions>
-                <Label Grid.Row="0" Content="Musteri"  VerticalAlignment="Center" Height="26" ></Label>
-            <ComboBox Grid.Row="0" Grid.Column="1" Name="cbAccountCustomer" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Center" Width="250">
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Content="Musteri"  VerticalAlignment="Center" Height="26" ></Label>
+            <ComboBox Grid.Row="0" Grid.Column="1" x:Name="cbAccountCustomer" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Center" Width="250">
                 <ComboBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock>

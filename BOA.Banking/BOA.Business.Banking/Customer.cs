@@ -56,7 +56,6 @@ namespace BOA.Business.Banking
         {
 
             SqlDataReader dr;
-           
                 dr = dbOperation.SpGetData("cus.sel_customer", new SqlParameter[]{
                 new SqlParameter("@Id", customer.Id),
                 new SqlParameter("@Name", customer.Name),

@@ -170,8 +170,8 @@ namespace BOA.UI.Banking.AccountList
         {
             
             if (dgAccountListeleme.SelectedItem == null) return;
+            
             AccountContract selectedAccount = dgAccountListeleme.SelectedItem as AccountContract;
-
             AccountAdd.MainWindow accountAddWindow = new AccountAdd.MainWindow(selectedAccount);
             accountAddWindow.Show();
             

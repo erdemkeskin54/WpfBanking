@@ -9,7 +9,7 @@ using System.Reflection;
 
 namespace BOA.Connector.Banking
 {
-    public class Connect1
+    public class ConnectOld
     {
         //Login
         public ResponseBase Execute(RequestBase request)

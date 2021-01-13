@@ -80,6 +80,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountPayment.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.PaymentList.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountVirman.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.CustomerSelect.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.Business.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.CustomerAddress.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
@@ -108,6 +109,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.PaymentList.exe.config
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountVirman.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountVirman.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.CustomerSelect.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.Business.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.CustomerAddress.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.CustomerAddress.exe.config
@@ -130,5 +132,3 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.Login.csproj.CopyComplete
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.UserLogin.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.UserLogin.pdb
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.CustomerSelect.dll
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.CustomerSelect.pdb

@@ -32,6 +32,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\bin\Debug\BOA.Types.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\bin\Debug\BOA.Process.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\bin\Debug\BOA.Business.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\obj\Debug\BOA.UI.Banking.CustomerPhoneWindow.csprojAssemblyReference.cache
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\obj\Debug\MainWindow.g.cs
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\obj\Debug\App.g.cs
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerPhoneWindow\obj\Debug\BOA.UI.Banking.CustomerPhoneWindow_MarkupCompile.cache

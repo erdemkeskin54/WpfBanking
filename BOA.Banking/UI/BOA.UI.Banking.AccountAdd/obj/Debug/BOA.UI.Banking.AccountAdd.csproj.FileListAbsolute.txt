@@ -35,10 +35,12 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\BOA.Types.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\MahApps.Metro.IconPacks.Core.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\UC.CustomerSelect.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\BOA.Process.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\BOA.Business.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\BOA.Connector.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\UC.CustomerSelect.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\MahApps.Metro.IconPacks.Core.xml
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.AccountAdd\bin\Debug\MahApps.Metro.IconPacks.Material.pdb

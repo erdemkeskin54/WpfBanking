@@ -62,6 +62,7 @@ C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Ba
 C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.AccountVirman.exe
 C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.AccountVirman.pdb
 C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.AccountVirman.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\App.g.cs
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.Portal.exe.config
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.Portal.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.Portal.pdb
@@ -76,6 +77,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.UserPortal.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\MahApps.Metro.IconPacks.Core.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\UC.CustomerSelect.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.Process.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.AccountClose.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.CustomerAddress.exe
@@ -98,6 +100,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.PaymentList.exe.config
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.UserPortal.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.UI.Banking.UserPortal.exe.config
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\UC.CustomerSelect.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\MahApps.Metro.IconPacks.Core.xml
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
@@ -114,7 +117,6 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\BOA.Business.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal.csprojAssemblyReference.cache
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\Portal.g.cs
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\App.g.cs
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal_Content.g.cs
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal_MarkupCompile.cache
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal_MarkupCompile.lref
@@ -126,5 +128,3 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal.csproj.CopyComplete
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\obj\Debug\BOA.UI.Banking.Portal.pdb
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\UC.CustomerSelect.dll
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.Customer\bin\Debug\UC.CustomerSelect.pdb

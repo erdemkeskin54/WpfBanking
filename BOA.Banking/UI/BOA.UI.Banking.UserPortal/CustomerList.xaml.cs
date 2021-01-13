@@ -34,7 +34,7 @@ namespace BOA.UI.Banking.CustomerList
         {
             customer = new CustomerContract();
             if (txtCustomerNo.Text == null || txtCustomerNo.Text == "")
-            { customer.Id = null; }
+            { customer.Id = 0; }
             else { customer.Id = Convert.ToInt32(txtCustomerNo.Text); }
             
             if (txtCustomerName.Text == null || txtCustomerName.Text == "")
@@ -49,7 +49,7 @@ namespace BOA.UI.Banking.CustomerList
             { customer.TaxNumber = null; }
             else { customer.TaxNumber = txtCustomerTaxNumber.Text; }
 
-            if(customer.Id == null && customer.TaxNumber == null && customer.Name==null && customer.SurName==null)
+            if(customer.Id == 0 && customer.TaxNumber == null && customer.Name==null && customer.SurName==null)
             { customer = null;CustomerAll(customer);return; }
 
             verileriGetir(customer);

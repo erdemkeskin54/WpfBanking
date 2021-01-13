@@ -53,6 +53,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Core.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\UC.CustomerSelect.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerPhoneWindow.exe
@@ -68,6 +69,7 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\MahApps.Metro.IconPacks.Material.xml
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.Process.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\UC.CustomerSelect.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerAddress.exe.config
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserPortal\bin\Debug\BOA.UI.Banking.CustomerMailWindow.pdb

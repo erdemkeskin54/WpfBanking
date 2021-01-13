@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:BOA.UI.Banking.AccountVirman" xmlns:iconPacks="clr-namespace:MahApps.Metro.IconPacks;assembly=MahApps.Metro.IconPacks.Material"
         xmlns:CustomerSelect="clr-namespace:UC.CustomerSelect;assembly=UC.CustomerSelect" x:Class="BOA.UI.Banking.AccountVirman.MainWindow"
         mc:Ignorable="d"
-        Title="Virman" Height="597.141" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Virman" Height="597.141" Width="800" WindowStartupLocation="CenterScreen" >
     <Grid>
 
         <Grid.RowDefinitions>
@@ -58,7 +58,7 @@
 
                     </Grid.RowDefinitions>
 
-                    <CustomerSelect:UserControl1 Name="ucCustomer" Grid.Row="0" Grid.ColumnSpan="2"/>
+                    <CustomerSelect:UserControl1  Name="ucCustomer" Grid.Row="0" Grid.ColumnSpan="2"/>
 
                     <Label Grid.Column="2" Content="Şube" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="26" />
                     <ComboBox Grid.Column="3"  x:Name="cbAccountBranch" VerticalAlignment="Center"  Height="20" HorizontalAlignment="Center" Width="250" SelectionChanged="cbAccountBranch_SelectionChanged"  />

@@ -23,46 +23,50 @@ namespace BOA.UI.Banking.AccountAdd
     public partial class MainWindow : Window
     {
         public int _customerId;
-        AccountContract _accountContract;
+        public AccountContract _accountContract;
         public int suffix;
         public int _accountId;
         public MainWindow(AccountContract accountContract)
         {
-            InitializeComponent();
+            
             _accountContract = accountContract;
             _accountId = accountContract.Id;
-            ComboboxCustomer(new CustomerContract());
+
+            InitializeComponent();
+
             comboboxFEC();
             comboboxBranch();
             dpOpenDate.SelectedDate = DateTime.Now;
-            if (accountContract.AccountOwnerId!=0)
-            {
-                cbAccountAddCustomer.SelectedValue = accountContract.AccountOwnerId;
-            }
-            if (_accountId==0 || _accountContract == null)
+
+            if (_accountId == 0 || _accountContract == null)
             {
                 //yenikayıt
-                cbAccountAddCustomer.IsEnabled = true;
+                ucCustomer.cbIsEnable = true;
             }
             else
             {
                 //Kayıt güncelleme
-                cbAccountAddCustomer.IsEnabled = false;
-                GetAccount(accountContract);
+                ucCustomer.cbIsEnable = false;
+                
             }
+            
+        }
+        private void Window_ContentRendered(object sender, EventArgs e)
+        {
+            FillAccount(_accountContract);
         }
 
         private void btnAccountAdd_Click(object sender, RoutedEventArgs e)
         {
             //if ( Convert.ToInt32(txtAccountSuffix.Text) == suffix && txtAccountSuffix.IsEnabled)
 
-            if (_accountId==0)
+            if (_accountId == 0)
             {
                 //yeni hesap
-                if (cbAccountAddCustomer.SelectedIndex == -1)
+                if (ucCustomer.selectedComboboxIndex == -1)
                 {
                     MessageBox.Show("Müşteri boş geçilemez", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    cbAccountAddCustomer.Focus();
+                    ucCustomer.Focus();
                     return;
                 }
                 if (cbCurrencyCode.SelectedIndex == -1)
@@ -127,7 +131,7 @@ namespace BOA.UI.Banking.AccountAdd
                 }
 
                 _accountContract = new AccountContract();
-                _accountContract.AccountOwnerId = (int)cbAccountAddCustomer.SelectedValue;
+                _accountContract.AccountOwnerId = (int)ucCustomer.customerContract.Id;
                 _accountContract.Suffix = Convert.ToInt32(txtAccountSuffix.Text);
                 _accountContract.FECId = Convert.ToInt32(cbCurrencyCode.SelectedValue);
                 _accountContract.BranchId = Convert.ToInt32(cbAccounBranchCode.SelectedValue);
@@ -138,17 +142,17 @@ namespace BOA.UI.Banking.AccountAdd
                 _accountContract.IBAN = txtAccountIBAN.Text;
                 _accountContract.AccountName = txtAccountName.Text;
                 _accountContract.AccountDescription = txtAccountDesc.Text;
-                _accountContract.Username = (int)cbAccountAddCustomer.SelectedValue;
+                _accountContract.Username = (int)ucCustomer.customerContract.Id;
                 AddAccount(_accountContract);
                 this.Close();
             }
             else
             {
                 //hesap güncelleme
-                if (cbAccountAddCustomer.SelectedIndex == -1)
+                if (ucCustomer.selectedComboboxIndex == -1)
                 {
                     MessageBox.Show("Müşteri boş geçilemez", "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-                    cbAccountAddCustomer.Focus();
+                    ucCustomer.Focus();
                     return;
                 }
                 if (cbCurrencyCode.SelectedIndex == -1)
@@ -211,10 +215,10 @@ namespace BOA.UI.Banking.AccountAdd
                     dpOpenDate.Focus();
                     return;
                 }
-                
+
                 _accountContract = new AccountContract();
                 _accountContract.Id = _accountId;
-                _accountContract.AccountOwnerId = (int)cbAccountAddCustomer.SelectedValue;
+                _accountContract.AccountOwnerId = (int)ucCustomer.customerContract.Id;
                 _accountContract.Suffix = Convert.ToInt32(txtAccountSuffix.Text);
                 _accountContract.FECId = Convert.ToInt32(cbCurrencyCode.SelectedValue);
                 _accountContract.BranchId = Convert.ToInt32(cbAccounBranchCode.SelectedValue);
@@ -225,7 +229,7 @@ namespace BOA.UI.Banking.AccountAdd
                 _accountContract.IBAN = txtAccountIBAN.Text;
                 _accountContract.AccountName = txtAccountName.Text;
                 _accountContract.AccountDescription = txtAccountDesc.Text;
-                _accountContract.Username = (int)cbAccountAddCustomer.SelectedValue;
+                _accountContract.Username = (int)ucCustomer.customerContract.Id;
 
                 UpdateAccount(_accountContract);
                 this.Close();
@@ -344,11 +348,9 @@ namespace BOA.UI.Banking.AccountAdd
 
             if (response.IsSuccess == true)
             {
-
-
-                cbAccountAddCustomer.SelectedValue = response.accountContract.AccountOwnerId;
+                ucCustomer.selectedComboboxValue = accountContract.AccountOwnerId;
                 txtAccountSuffix.Text = response.accountContract.Suffix.ToString();
-                cbCurrencyCode.SelectedValue= response.accountContract.FECId;
+                cbCurrencyCode.SelectedValue = response.accountContract.FECId;
                 cbAccounBranchCode.SelectedValue = response.accountContract.BranchId;
                 dpOpenDate.SelectedDate = response.accountContract.OpenDate;
                 if (response.accountContract.CloseDate != null)
@@ -366,7 +368,20 @@ namespace BOA.UI.Banking.AccountAdd
 
         }
 
-
+        public void FillAccount(AccountContract accountContract)
+        {
+            ucCustomer.selectedComboboxValue = accountContract.AccountOwnerId;
+            txtAccountSuffix.Text = accountContract.Suffix.ToString();
+            cbCurrencyCode.SelectedValue = accountContract.FECId;
+            cbAccounBranchCode.SelectedValue = accountContract.BranchId;
+            dpOpenDate.SelectedDate = accountContract.OpenDate;
+            if (accountContract.CloseDate != null)
+                dpClosureDate.SelectedDate = accountContract.CloseDate;
+            txtAccountReasonForClosing.Text = accountContract.ReasonForClosing;
+            txtAccountIBAN.Text = accountContract.IBAN;
+            txtAccountName.Text = accountContract.AccountName;
+            txtAccountDesc.Text = accountContract.AccountDescription;
+        }
         public bool ComboboxCustomer(CustomerContract customer)
         {
             var connect = new Connector.Banking.GenericConnect<CustomerResponse>();
@@ -390,11 +405,12 @@ namespace BOA.UI.Banking.AccountAdd
                 return true;
                 */
 
+                /*
                 cbAccountAddCustomer.ItemsSource = response.customers;
                 cbAccountAddCustomer.DisplayMemberPath = "Id";
                 cbAccountAddCustomer.SelectedValuePath = "Id";
                 cbAccountAddCustomer.Items.Refresh();
-
+                */
 
             }
             else
@@ -454,7 +470,7 @@ namespace BOA.UI.Banking.AccountAdd
 
         private void btnAccountDelete_Click(object sender, RoutedEventArgs e)
         {
-            if (_accountId!=0)
+            if (_accountId != 0)
             {
                 DeleteAccount(new AccountContract() { Id = _accountId });
                 this.Close();
@@ -474,11 +490,11 @@ namespace BOA.UI.Banking.AccountAdd
         private void cbCurrencyCode_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // MessageBox.Show("secilenid :" + cbCurrencyCode.SelectedValue, "Message", MessageBoxButton.OK, MessageBoxImage.Error);
-            if (cbAccountAddCustomer.SelectedIndex == -1)
+            if (ucCustomer.selectedComboboxIndex == -1)
             { MessageBox.Show("Lütfen işlem yapılacak hesabı seçiniz", "Message", MessageBoxButton.OK, MessageBoxImage.Error); return; }
 
             _accountContract = new AccountContract();
-            _accountContract.AccountOwnerId = (int)cbAccountAddCustomer.SelectedValue;
+            _accountContract.AccountOwnerId = (int)ucCustomer.customerContract.Id;
             _accountContract.FECId = Convert.ToInt32(cbCurrencyCode.SelectedValue);
             GetAccountLastSuffixNumber(_accountContract);
         }
@@ -538,6 +554,9 @@ namespace BOA.UI.Banking.AccountAdd
                 return false;
         }
 
+      
+
+        
 
         //-----------------------------------------------------------------------------------
     }

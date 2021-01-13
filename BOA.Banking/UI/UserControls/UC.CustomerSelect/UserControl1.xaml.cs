@@ -25,14 +25,14 @@ namespace UC.CustomerSelect
         {
             InitializeComponent();
             ComboboxCustomer(new CustomerContract());
-
+            
         }
+
         public CustomerContract customerContract
         {
             get
             {
-                CustomerContract selected = cbAccountCustomer.SelectedItem as CustomerContract;
-                return selected;
+                return cbAccountCustomer.SelectedItem as CustomerContract;
             }
         }
         public int selectedComboboxIndex
@@ -45,6 +45,47 @@ namespace UC.CustomerSelect
             {
                 cbAccountCustomer.SelectedIndex=value;
             }
+        }
+        
+        public CustomerContract selectedComboboxItem
+        {
+            get
+            {
+                return cbAccountCustomer.SelectedItem as CustomerContract;
+            }
+            set
+            {
+                cbAccountCustomer.SelectedItem = value;
+            }
+        }
+
+        public int selectedComboboxValue
+        {
+            get
+            {
+                return (int)cbAccountCustomer.SelectedValue;
+            }
+            set
+            {
+                cbAccountCustomer.SelectedValue =Convert.ToInt32(value);
+            }
+        }
+        
+        public bool cbIsEnable
+        {
+            get
+            {
+                return cbAccountCustomer.IsEnabled;
+            }
+            set
+            {
+                cbAccountCustomer.IsEnabled = value;
+            }
+        }
+
+        public void setCbCustomerValue (int customerId)
+        {
+            cbAccountCustomer.SelectedValue = customerId;
         }
 
 
@@ -62,8 +103,10 @@ namespace UC.CustomerSelect
             {
                 cbAccountCustomer.ItemsSource = response.customers;
                 //cbAccountCustomer.DisplayMemberPath = "Name";
-                //cbAccountCustomer.SelectedValuePath = "Id";
+                cbAccountCustomer.SelectedValuePath = "Id";
                 cbAccountCustomer.Items.Refresh();
+                //cbAccountCustomer.SelectedItem = customer;
+
             }
             else
             {

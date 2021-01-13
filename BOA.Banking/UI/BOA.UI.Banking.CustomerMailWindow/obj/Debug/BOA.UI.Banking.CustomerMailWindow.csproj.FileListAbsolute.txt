@@ -44,4 +44,3 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csproj.CopyComplete
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.pdb
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.CustomerMailWindow\obj\Debug\BOA.UI.Banking.CustomerMailWindow.csprojAssemblyReference.cache
