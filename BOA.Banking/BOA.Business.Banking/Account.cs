@@ -187,7 +187,6 @@ namespace BOA.Business.Banking
             
             while (dr.Read())
             {
-
                 account.Id = (int)dr[0];
                 account.AccountOwnerId = (int)dr[1];
                 account.Suffix = (int)dr[2];
@@ -203,15 +202,34 @@ namespace BOA.Business.Banking
                 account.Username = (int)dr[12];
                 account.SystemDate = (DateTime)dr[13];
 
+                account.customerDetailContract.Id = (int)dr[14];
+                account.customerDetailContract.Name = dr[15].ToString();
+                account.customerDetailContract.SurName = dr[16].ToString();
+                account.customerDetailContract.TaxNumber = dr[17].ToString();
+                account.customerDetailContract.BirthPlace = dr[18].ToString();
+                account.customerDetailContract.BirthDate = (DateTime)dr[19];
+                account.customerDetailContract.MomName = dr[20].ToString();
+                account.customerDetailContract.FatherName = dr[21].ToString();
+
+                account.customerDetailContract.jobContract.Id = (int)dr[22];
+                account.customerDetailContract.jobContract.Name = dr[23].ToString();
+
+                account.customerDetailContract.educationContract.Id = (int)dr[24];
+                account.customerDetailContract.educationContract.Name = dr[25].ToString();
+
+                account.fecContract.Id = (int)dr[26];
+                account.fecContract.Code = dr[27].ToString();
+                account.fecContract.Name = dr[28].ToString();
+                account.fecContract.Symbol = dr[29].ToString();
+
+                account.branchContract.Id = (int)dr[30];
+                account.branchContract.Code = dr[31].ToString();
+                account.branchContract.Name = dr[32].ToString();
+
             }
 
             return account;
         }
-
-
-
-
-
         public List<AccountContract> GetAccounts(AccountContract accountContract)
         {
             SqlDataReader dr;
@@ -290,6 +308,7 @@ namespace BOA.Business.Banking
 
             List<AccountContract> accountContracts = new List<AccountContract>();
             AccountContract account;
+            CustomerDetail customerDetail = new CustomerDetail();
             while (dr.Read())
             {
 
@@ -308,6 +327,30 @@ namespace BOA.Business.Banking
                 account.AccountDescription = dr[11].ToString();
                 account.Username = (int)dr[12];
                 account.SystemDate = (DateTime)dr[13];
+
+                account.customerDetailContract.Id= (int)dr[14];
+                account.customerDetailContract.Name = dr[15].ToString();
+                account.customerDetailContract.SurName = dr[16].ToString();
+                account.customerDetailContract.TaxNumber = dr[17].ToString();
+                account.customerDetailContract.BirthPlace = dr[18].ToString();
+                account.customerDetailContract.BirthDate = (DateTime)dr[19];
+                account.customerDetailContract.MomName = dr[20].ToString();
+                account.customerDetailContract.FatherName = dr[21].ToString();
+
+                account.customerDetailContract.jobContract.Id= (int)dr[22];
+                account.customerDetailContract.jobContract.Name = dr[23].ToString();
+
+                account.customerDetailContract.educationContract.Id = (int)dr[24];
+                account.customerDetailContract.educationContract.Name = dr[25].ToString();
+
+                account.fecContract.Id= (int)dr[26];
+                account.fecContract.Code = dr[27].ToString();
+                account.fecContract.Name = dr[28].ToString();
+                account.fecContract.Symbol = dr[29].ToString();
+
+                account.branchContract.Id = (int)dr[30];
+                account.branchContract.Code = dr[31].ToString();
+                account.branchContract.Name = dr[32].ToString();
 
                 accountContracts.Add(account);
             }

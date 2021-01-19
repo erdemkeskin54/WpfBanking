@@ -121,6 +121,10 @@
       <Project>{e835f508-10a4-4669-baf2-5b6ce08cb978}</Project>
       <Name>BOA.UI.Banking.AccountList</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BOA.UI.Banking.AccountTransfer\BOA.UI.Banking.AccountTransfer.csproj">
+      <Project>{372e1ee6-a77f-403c-8f83-52418c2247e4}</Project>
+      <Name>BOA.UI.Banking.AccountTransfer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BOA.UI.Banking.AccountVirman\BOA.UI.Banking.AccountVirman.csproj">
       <Project>{587ea506-dfe6-422f-8584-deeafe67ad55}</Project>
       <Name>BOA.UI.Banking.AccountVirman</Name>
@@ -136,6 +140,10 @@
     <ProjectReference Include="..\BOA.UI.Banking.UserPortal\BOA.UI.Banking.CustomerList.csproj">
       <Project>{d90d46de-3b6b-4034-8afe-c2c8d834926b}</Project>
       <Name>BOA.UI.Banking.CustomerList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControls\UC.AccountSelect\UC.AccountSelect.csproj">
+      <Project>{144d84aa-388b-4f57-a109-42bba5f7dbc1}</Project>
+      <Name>UC.AccountSelect</Name>
     </ProjectReference>
     <ProjectReference Include="..\UserControls\UC.CustomerSelect\UC.CustomerSelect.csproj">
       <Project>{9d74c28a-bdeb-46a7-b65e-3e717c2515ac}</Project>

@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TransferContract.cs" />
     <Compile Include="VirmanContract.cs" />
+    <Compile Include="TransferRequest.cs" />
     <Compile Include="VirmanRequest.cs" />
+    <Compile Include="TransferResponse.cs" />
     <Compile Include="VirmanResponse.cs" />
     <Compile Include="PaymentTypesContract.cs" />
     <Compile Include="PaymentTypesRequest.cs" />

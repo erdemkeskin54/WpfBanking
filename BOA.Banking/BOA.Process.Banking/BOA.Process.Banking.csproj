@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Transfer.cs" />
     <Compile Include="Virman.cs" />
     <Compile Include="PaymentTypes.cs" />
     <Compile Include="Payment.cs" />

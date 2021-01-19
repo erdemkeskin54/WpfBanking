@@ -564,12 +564,17 @@ namespace BOA.UI.Banking.CustomerAdd
                 MessageBox.Show("Kayıt silinemedi");
             }
         }
+        public event RoutedEventHandler CustomCloseTab;
         private void btnCloseCustomerAdd_Click(object sender, RoutedEventArgs e)
         {
             customerDetail = null;
             customerAddresses = null;
             customerMails = null;
             customerPhones = null;
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
             this.Close();
         }
 

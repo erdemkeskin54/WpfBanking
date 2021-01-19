@@ -39,7 +39,7 @@ namespace BOA.Connector.Banking
 
             //response = pr.CustomerAll((CustomerRequest)request);
             var tempResponse = (T)instance.GetType().GetMethod(request.MethodName).Invoke(instance, new object[] { request });
-
+            
             return tempResponse;
         }
     }

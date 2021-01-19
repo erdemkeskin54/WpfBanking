@@ -195,9 +195,14 @@ namespace BOA.UI.Banking.PaymentList
             GetPayment(_paymentContract, _startDate, _finishDate);
 
         }
+        public event RoutedEventHandler CustomCloseTab;
 
         private void btnCloseTabPaymentList_Click(object sender, RoutedEventArgs e)
         {
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
             this.Close();
         }
         private void dgPaymentListeleme_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)

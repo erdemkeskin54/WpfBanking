@@ -11,7 +11,7 @@ C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Types.Ba
 C:\Users\Dark Spoiler\Desktop\Stajyer Programi\Solution\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.pdb
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\bin\Debug\BOA.Types.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\bin\Debug\BOA.Types.Banking.pdb
-C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.csprojAssemblyReference.cache
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.csproj.CoreCompileInputs.cache
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.dll
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\BOA.Types.Banking\obj\Debug\BOA.Types.Banking.csprojAssemblyReference.cache

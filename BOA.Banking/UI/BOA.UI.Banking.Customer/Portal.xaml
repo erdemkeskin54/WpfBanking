@@ -116,8 +116,18 @@
                                 </StackPanel>
                             </TreeViewItem.Header>
                         </TreeViewItem>
+                        <TreeViewItem Name="tvTransfer">
+                            <TreeViewItem.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <iconPacks:PackIconMaterial Kind="CashMultiple" Height="28" Width="28"/>
+                                    <Label  Content="Havale" MouseDoubleClick="lblHavale" ></Label>
+                                </StackPanel>
+                            </TreeViewItem.Header>
+                        </TreeViewItem>
+
 
                     </TreeViewItem>
+
                 </TreeView>
 
             </StackPanel>

@@ -132,3 +132,8 @@ C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.Login.csproj.CopyComplete
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.UserLogin.exe
 C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\obj\Debug\BOA.UI.Banking.UserLogin.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.AccountSelect.dll
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountTransfer.exe
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\UC.AccountSelect.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountTransfer.pdb
+C:\Users\Dark Spoiler\Documents\GitHub\WpfBanking\BOA.Banking\UI\BOA.UI.Banking.UserLogin\bin\Debug\BOA.UI.Banking.AccountTransfer.exe.config

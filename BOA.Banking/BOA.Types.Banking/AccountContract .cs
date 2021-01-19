@@ -22,6 +22,14 @@ namespace BOA.Types.Banking
         public string AccountDescription { get; set; }
         public int Username { get; set; }
         public DateTime? SystemDate { get; set; }
-        
+        public CustomerDetailContract customerDetailContract { get; set; }
+        public FECContract fecContract { get; set; }
+        public BranchContract branchContract { get; set; }
+        public AccountContract()
+        {
+            customerDetailContract = new CustomerDetailContract();
+            fecContract = new FECContract();
+            branchContract = new BranchContract();
+        }
     }
 }

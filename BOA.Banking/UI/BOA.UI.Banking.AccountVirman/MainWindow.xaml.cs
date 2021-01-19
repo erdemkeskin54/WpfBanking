@@ -81,13 +81,14 @@ namespace BOA.UI.Banking.AccountVirman
             AddVirman(virmanContract);
         }
 
+        public event RoutedEventHandler CustomCloseTab;
+
         private void btnCloseVirmanAdd_Click(object sender, RoutedEventArgs e)
         {
-            //if (uc_CustomerSelect.customerContract==null)
-            //{
-            //    return;
-            //}
-            //MessageBox.Show("Hesap:"+uc_CustomerSelect.customerContract.Name, "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
         }
 
         //Yardımcı Fonksiyonlar

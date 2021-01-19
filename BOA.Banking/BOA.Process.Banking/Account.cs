@@ -66,7 +66,7 @@ namespace BOA.Process.Banking
             Business.Banking.Account accountBusiness = new Business.Banking.Account();
             List<AccountContract> accountContracts = accountBusiness.GetAccounts(request.accountContract);
 
-            if (accountContracts != null)
+            if (accountContracts.Count>0)
             {
                 return new AccountResponse()
                 {
@@ -85,7 +85,7 @@ namespace BOA.Process.Banking
             Business.Banking.Account accountBusiness = new Business.Banking.Account();
             AccountContract accountContract = accountBusiness.GetAccount(request.accountContract);
 
-            if (accountContract != null)
+            if (accountContract == null)
             {
                 return new AccountResponse()
                 {

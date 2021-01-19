@@ -153,10 +153,14 @@ namespace BOA.UI.Banking.CustomerList
 
             // MessageBox.Show(string.Format("The Person you double clicked on is - Id: {0}, Address: {1}, Surname: {2}", selectedPerson.Id, selectedPerson.Name, selectedPerson.SurName));
         }
+        public event RoutedEventHandler CustomCloseTab;
 
         private void btnCloseTabCustomerList_Click(object sender, RoutedEventArgs e)
         {
-
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
         }
 
         private void btnOpenAccount_Click(object sender, RoutedEventArgs e)

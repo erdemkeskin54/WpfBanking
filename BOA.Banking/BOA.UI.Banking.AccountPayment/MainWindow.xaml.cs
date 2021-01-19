@@ -127,9 +127,14 @@ namespace BOA.UI.Banking.AccountPayment
                 }
             }
         }
+        public event RoutedEventHandler CustomCloseTab;
 
         private void btnClosePaymentAdd_Click(object sender, RoutedEventArgs e)
         {
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
             this.Close();
         }
         public bool ComboboxCustomer(CustomerContract customer)

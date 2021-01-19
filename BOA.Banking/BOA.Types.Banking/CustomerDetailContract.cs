@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BOA.Types.Banking.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,7 +26,14 @@ namespace BOA.Types.Banking
         public int? EducationId { get; set; }
         public int? JobId { get; set; }
 
+        public EducationContract educationContract { get; set; }
+        public JobContract jobContract { get; set; }
 
+        public CustomerDetailContract()
+        {
+            educationContract = new EducationContract();
+            jobContract = new JobContract();
+        }
         // public List<CustomerAddress> CustomerAddresses { get; set; }
         // public List<CustomerMail> CustomerMails { get; set; }
         // public List<CustomerPhone> CustomerPhones { get; set; }

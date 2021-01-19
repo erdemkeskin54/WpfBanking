@@ -476,9 +476,14 @@ namespace BOA.UI.Banking.AccountAdd
                 this.Close();
             }
         }
+        public event RoutedEventHandler CustomCloseTab;
 
         private void btnCloseAccountAdd_Click(object sender, RoutedEventArgs e)
         {
+            if (CustomCloseTab != null)
+            {
+                CustomCloseTab(this, new RoutedEventArgs());
+            }
             this.Close();
         }
 

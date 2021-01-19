@@ -22,7 +22,7 @@
                     <DataTemplate>
                         <TextBlock>
                             <TextBlock.Text>
-                                <MultiBinding StringFormat="{}{0} , {1}">
+                                <MultiBinding StringFormat="{}{0} - {1}">
                                     <Binding Path="Id" />
                                     <Binding Path="Name" />
                                 </MultiBinding>
@@ -30,8 +30,10 @@
                         </TextBlock>
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
+                
+                
                 <ComboBox.Text>
-                    <MultiBinding StringFormat="{}{0} , {1}">
+                    <MultiBinding StringFormat="{}{0} - {1}">
                         <Binding Path="Id" />
                         <Binding Path="Name" />
                     </MultiBinding>

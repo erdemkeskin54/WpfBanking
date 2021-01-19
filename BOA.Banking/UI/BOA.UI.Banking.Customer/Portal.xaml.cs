@@ -31,14 +31,14 @@ namespace BOA.UI.Banking.Portal
             lblStatusBar.Text = "LOG-> "+ DateTime.Now.ToString() + " Admin başarıyla giriş yaptı.";
         }
 
-        private void TreeViewItem_Selected(object sender, RoutedEventArgs e)
+        public void closeTab(object sender, EventArgs e)
         {
-
+            tcPortal.Items.RemoveAt(tcPortal.SelectedIndex);
         }
-
         private void lblCustomerList(object sender, MouseButtonEventArgs e)
         {
             CustomerList.CustomerList listWindow = new CustomerList.CustomerList();
+            listWindow.CustomCloseTab += closeTab;
             TabItem tabMusteriEkle = new TabItem();
             tabMusteriEkle.Content = listWindow.Content;
             tabMusteriEkle.Header = "Müşteri Listeleme";
@@ -47,22 +47,11 @@ namespace BOA.UI.Banking.Portal
             tcPortal.Items.Add(tabMusteriEkle);
         }
 
-        public void closeTabMusteriEkle()
-        {
-            CustomerList.CustomerList listWindow = new CustomerList.CustomerList();
-            TabItem tabMusteriEkle = new TabItem();
-            tabMusteriEkle.Content = listWindow.Content;
-            tabMusteriEkle.Header = "Müşteri Listeleme";
-            tabMusteriEkle.Name = "tcCustomerList";
-            tabMusteriEkle.IsSelected = true;
-            tcPortal.Items.Remove(tabMusteriEkle);
-            return;
-        }
-
         private void lblCustomerAdd(object sender, MouseButtonEventArgs e)
         {
             BOA.Types.Banking.CustomerContract customer = null;
             CustomerAdd.CustomerAdd addWindow = new CustomerAdd.CustomerAdd(customer);
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabMusteriEkle = new TabItem();
             tabMusteriEkle.Content = addWindow.Content;
             tabMusteriEkle.Header = "Müşteri Tanımlama";
@@ -73,6 +62,7 @@ namespace BOA.UI.Banking.Portal
         private void lblAccountAdd(object sender, MouseButtonEventArgs e)
         {
             AccountAdd.MainWindow addWindow = new AccountAdd.MainWindow(new AccountContract());
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabHesapEkle = new TabItem();
             tabHesapEkle.Content = addWindow.Content;
             tabHesapEkle.Header = "Hesap Tanımlama";
@@ -83,6 +73,7 @@ namespace BOA.UI.Banking.Portal
         private void lblAccountList(object sender, MouseButtonEventArgs e)
         {
             AccountList.MainWindow addWindow = new AccountList.MainWindow();
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabHesapListeleme = new TabItem();
             tabHesapListeleme.Content = addWindow.Content;
             tabHesapListeleme.Header = "Hesap Listeleme";
@@ -93,6 +84,7 @@ namespace BOA.UI.Banking.Portal
         private void lblAccountWithdrawCash(object sender, MouseButtonEventArgs e)
         {
             AccountPayment.MainWindow addWindow = new AccountPayment.MainWindow(2);
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabItem = new TabItem();
             tabItem.Content = addWindow.Content;
             tabItem.Header = "Para Çekme";
@@ -103,6 +95,7 @@ namespace BOA.UI.Banking.Portal
         private void lblAccountDepositCash(object sender, MouseButtonEventArgs e)
         {
             AccountPayment.MainWindow addWindow = new AccountPayment.MainWindow(1);
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabParaYatirma = new TabItem();
             tabParaYatirma.Content = addWindow.Content;
             tabParaYatirma.Header = "Para Yatırma";
@@ -113,6 +106,7 @@ namespace BOA.UI.Banking.Portal
         private void lblAccountPaymentList(object sender, MouseButtonEventArgs e)
         {
             PaymentList.MainWindow addWindow = new PaymentList.MainWindow();
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabPaymentListeleme = new TabItem();
             tabPaymentListeleme.Content = addWindow.Content;
             tabPaymentListeleme.Header = "Ödeme Listeleme";
@@ -123,7 +117,7 @@ namespace BOA.UI.Banking.Portal
         private void lblVirmanAdd(object sender, MouseButtonEventArgs e)
         {
             AccountVirman.MainWindow addWindow = new AccountVirman.MainWindow();
-
+            addWindow.CustomCloseTab += closeTab;
             TabItem tabVirmanAdd = new TabItem();
             tabVirmanAdd.Content = addWindow.Content;
             tabVirmanAdd.Header = "Virman Tanımlama";
@@ -133,23 +127,29 @@ namespace BOA.UI.Banking.Portal
         }
 
 
-        public void closeTab(object sender, EventArgs e)
-        {
-            tcPortal.Items.RemoveAt(tcPortal.SelectedIndex);
-            //MessageBox.Show("Selected=" + tcPortal.SelectedIndex+"///" +tcPortal.Items.Contains("tcVirmanAdd"), "Message", MessageBoxButton.OK);
-        }
+        
 
-        private void Label_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void Label_MouseDoubleClick_1(object sender, MouseButtonEventArgs e)
         {
-            
-            UC.CustomerSelect.UserControl1 addUC = new UC.CustomerSelect.UserControl1();
+            UC.AccountSelect.UserControl1 addUCAccount = new UC.AccountSelect.UserControl1();
             TabItem tabUCCustomerAdd = new TabItem();
-            tabUCCustomerAdd.Content = addUC.Content;
-            tabUCCustomerAdd.Header = "CustomerSelect";
-            tabUCCustomerAdd.Name = "tcCustomerSelect";
+            tabUCCustomerAdd.Content = addUCAccount.Content;
+            tabUCCustomerAdd.Header = "UCAccountSelect";
+            tabUCCustomerAdd.Name = "tcUC";
             tabUCCustomerAdd.IsSelected = true;
             tcPortal.Items.Add(tabUCCustomerAdd);
-            
+        }
+
+        private void lblHavale(object sender, MouseButtonEventArgs e)
+        {
+            AccountTransfer.MainWindow addWindow = new AccountTransfer.MainWindow();
+            addWindow.CustomCloseTab += closeTab;
+            TabItem tabAdd = new TabItem();
+            tabAdd.Content = addWindow.Content;
+            tabAdd.Header = "Havale";
+            tabAdd.Name = "tcHavale";
+            tabAdd.IsSelected = true;
+            tcPortal.Items.Add(tabAdd);
         }
 
 
